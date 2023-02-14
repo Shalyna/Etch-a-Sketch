@@ -4,7 +4,7 @@ body {
     align-items: center;
 }
 
-.container {
+.container{
     display: flex;
     justify-content: center;
     align-content: center;
@@ -12,4 +12,3 @@ body {
     grid-template-columns: repeat(16, 24px);
     grid-template-rows: repeat(16, 24px);
 }
-
