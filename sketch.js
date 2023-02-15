@@ -16,7 +16,7 @@ body.style.minHeight = "100vh";
     for (let i = 1; i <= 16 * 16; i++) {
     const gridBox = document.createElement('div');
     gridBox.addEventListener('mouseover', () => {
-        gridBox.style.backgroundColor = 'black';
+        gridBox.style.backgroundColor = 'yellow';
     });
     gridBox.style.border = "1px solid darkgrey";
     container.appendChild(gridBox);
